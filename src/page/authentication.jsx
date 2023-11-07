@@ -41,7 +41,11 @@ function Authentication() {
           </div>
           <div
             className="_3D col-lg-7 col-xl-8 col-md-6 h-100"
-            style={{ backgroundColor: "black" }}
+            style={{
+              backgroundImage:
+                "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,1)), url(https://static.tuoitre.vn/tto/i/s626/2016/10/18/hinh-6-1476764347.jpg)",
+              backgroundSize: "cover",
+            }}
           >
             <Canvas
               ref={canvas}

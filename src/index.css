@@ -17,3 +17,11 @@ code {
     display: none;
   }
 }
+
+.post {
+  background-image: url("https://media-public.canva.com/YIAtg/MAE2DhYIAtg/1/tl.png");
+  background-size: cover;
+  border-radius: 10px;
+  /* background-color: black;
+  color: white; */
+}

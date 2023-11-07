@@ -1,10 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
-  const aler = (e) => {
-    e.preventDefault();
-    alert("chức năng đang được update, vui lòng thử lại sau!");
-  };
+  const navigate = useNavigate();
+
   return (
     <form className="mt-5">
       <label className="form-label text-white">Email address</label>
@@ -23,7 +22,7 @@ function Login() {
         <button
           className="btn mt-4 text-white w-100"
           style={{ backgroundColor: "rgb(80, 39, 121)" }}
-          onClick={aler}
+          onClick={() => navigate("/home")}
         >
           Login
         </button>
@@ -32,7 +31,6 @@ function Login() {
         <button
           className="btn mt-4 w-100"
           style={{ backgroundColor: "rgb(249, 170, 248)" }}
-          onClick={aler}
         >
           <i className="fa-solid fa-globe"></i>
           <span className="ms-3">Login with Borcell</span>
