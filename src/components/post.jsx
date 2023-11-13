@@ -3,11 +3,17 @@ import React from "react";
 function Post() {
   return (
     <>
-      <div className="container ">
+      <div className="container">
         <div className="row mt-5">
           <div className=" mx-auto " style={{ width: "940px" }}>
-            <div className="text-start">
-              <span className="h4 me-2">chu trinh</span>
+            <div className="text-start mb-2">
+              <img
+                className=" me-3 rounded-circle"
+                style={{ width: "5%" }}
+                src="https://scontent.fsgn13-4.fna.fbcdn.net/v/t39.30808-6/274879801_3124725294474894_2281591655370693797_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=K1doiq_l560AX_dsmBL&_nc_ht=scontent.fsgn13-4.fna&oh=00_AfDdykGpsZnoBRSCXcgVk7HacjhBD2oR5I1h58CgfkR-YA&oe=6550B8F6"
+                alt=""
+              />
+              <b className="me-2">chú trình</b>
               <span>posted at 20:00 pm</span>
             </div>
             <div className="container mt-2 post">
@@ -36,6 +42,33 @@ function Post() {
                     </p>
                   </div>
                 </div>
+                <div className="text-start">
+                  <i class="fa-solid fa-heart text-danger"></i>
+                  <button className="btn">thích</button>
+                  <button className="btn">bình luận</button>
+                  <span>200 lượt thích</span>
+                </div>
+                <input
+                  type="text"
+                  className="form-control my-1"
+                  placeholder="bình luận..."
+                />
+                <div className="text-start my-2 d-flex">
+                  <div style={{ width: "15%" }}>
+                    <img
+                      className="me-3 rounded-circle"
+                      style={{ width: "25%" }}
+                      src="https://scontent.fsgn13-4.fna.fbcdn.net/v/t39.30808-6/274879801_3124725294474894_2281591655370693797_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=K1doiq_l560AX_dsmBL&_nc_ht=scontent.fsgn13-4.fna&oh=00_AfDdykGpsZnoBRSCXcgVk7HacjhBD2oR5I1h58CgfkR-YA&oe=6550B8F6"
+                      alt=""
+                    />
+                    <b className="me-2">chú trình</b>
+                  </div>
+                  <span style={{ width: "85%" }}>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis, magnam. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Perferendis, magnam.
+                  </span>
+                </div>
               </div>
             </div>
           </div>
@@ -44,8 +77,14 @@ function Post() {
         {/* -------------------- */}
         <div className="row mt-5">
           <div className=" mx-auto " style={{ width: "940px" }}>
-            <div className="text-start">
-              <span className="h4 me-2">peter</span>
+            <div className="text-start mb-2">
+              <img
+                className=" me-3 rounded-circle"
+                style={{ width: "5%" }}
+                src="https://scontent.fsgn13-4.fna.fbcdn.net/v/t39.30808-6/274879801_3124725294474894_2281591655370693797_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=K1doiq_l560AX_dsmBL&_nc_ht=scontent.fsgn13-4.fna&oh=00_AfDdykGpsZnoBRSCXcgVk7HacjhBD2oR5I1h58CgfkR-YA&oe=6550B8F6"
+                alt=""
+              />
+              <b className="me-2">chú trình</b>
               <span>posted at 20:00 pm</span>
             </div>
             <div className="container mt-2 post">
@@ -75,6 +114,33 @@ function Post() {
                     </p>
                   </div>
                 </div>
+                <div className="text-start">
+                  <i class="fa-solid fa-heart text-danger"></i>
+                  <button className="btn">thích</button>
+                  <button className="btn">bình luận</button>
+                  <span>200 lượt thích</span>
+                </div>
+                <input
+                  type="text"
+                  className="form-control my-1"
+                  placeholder="bình luận..."
+                />
+                <div className="text-start my-2 d-flex">
+                  <div style={{ width: "15%" }}>
+                    <img
+                      className="me-3 rounded-circle"
+                      style={{ width: "25%" }}
+                      src="https://scontent.fsgn13-4.fna.fbcdn.net/v/t39.30808-6/274879801_3124725294474894_2281591655370693797_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=K1doiq_l560AX_dsmBL&_nc_ht=scontent.fsgn13-4.fna&oh=00_AfDdykGpsZnoBRSCXcgVk7HacjhBD2oR5I1h58CgfkR-YA&oe=6550B8F6"
+                      alt=""
+                    />
+                    <b className="me-2">chú trình</b>
+                  </div>
+                  <span style={{ width: "85%" }}>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis, magnam. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Perferendis, magnam.
+                  </span>
+                </div>
               </div>
             </div>
           </div>
@@ -83,8 +149,14 @@ function Post() {
         {/* -------------------- */}
         <div className="row mt-5">
           <div className=" mx-auto " style={{ width: "940px" }}>
-            <div className="text-start">
-              <span className="h4 me-2">tedy</span>
+            <div className="text-start mb-2">
+              <img
+                className=" me-3 rounded-circle"
+                style={{ width: "5%" }}
+                src="https://scontent.fsgn13-4.fna.fbcdn.net/v/t39.30808-6/274879801_3124725294474894_2281591655370693797_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=K1doiq_l560AX_dsmBL&_nc_ht=scontent.fsgn13-4.fna&oh=00_AfDdykGpsZnoBRSCXcgVk7HacjhBD2oR5I1h58CgfkR-YA&oe=6550B8F6"
+                alt=""
+              />
+              <b className="me-2">chú trình</b>
               <span>posted at 20:00 pm</span>
             </div>
             <div className="container mt-2 post">
@@ -111,6 +183,33 @@ function Post() {
                     </p>
                   </div>
                 </div>
+                <div className="text-start">
+                  <i class="fa-solid fa-heart text-danger"></i>
+                  <button className="btn">thích</button>
+                  <button className="btn">bình luận</button>
+                  <span>200 lượt thích</span>
+                </div>
+                <input
+                  type="text"
+                  className="form-control my-1"
+                  placeholder="bình luận..."
+                />
+                <div className="text-start my-2 d-flex">
+                  <div style={{ width: "15%" }}>
+                    <img
+                      className="me-3 rounded-circle"
+                      style={{ width: "25%" }}
+                      src="https://scontent.fsgn13-4.fna.fbcdn.net/v/t39.30808-6/274879801_3124725294474894_2281591655370693797_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=K1doiq_l560AX_dsmBL&_nc_ht=scontent.fsgn13-4.fna&oh=00_AfDdykGpsZnoBRSCXcgVk7HacjhBD2oR5I1h58CgfkR-YA&oe=6550B8F6"
+                      alt=""
+                    />
+                    <b className="me-2">chú trình</b>
+                  </div>
+                  <span style={{ width: "85%" }}>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis, magnam. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Perferendis, magnam.
+                  </span>
+                </div>
               </div>
             </div>
           </div>
@@ -119,8 +218,14 @@ function Post() {
         {/* -------------------- */}
         <div className="row mt-5">
           <div className=" mx-auto " style={{ width: "940px" }}>
-            <div className="text-start">
-              <span className="h4 me-2">makr</span>
+            <div className="text-start mb-2">
+              <img
+                className=" me-3 rounded-circle"
+                style={{ width: "5%" }}
+                src="https://scontent.fsgn13-4.fna.fbcdn.net/v/t39.30808-6/274879801_3124725294474894_2281591655370693797_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=K1doiq_l560AX_dsmBL&_nc_ht=scontent.fsgn13-4.fna&oh=00_AfDdykGpsZnoBRSCXcgVk7HacjhBD2oR5I1h58CgfkR-YA&oe=6550B8F6"
+                alt=""
+              />
+              <b className="me-2">chú trình</b>
               <span>posted at 20:00 pm</span>
             </div>
             <div className="container mt-2 post">
@@ -148,6 +253,33 @@ function Post() {
                       assumenda similique sapiente! Temporibus, repellat!
                     </p>
                   </div>
+                </div>
+                <div className="text-start">
+                  <i class="fa-solid fa-heart text-danger"></i>
+                  <button className="btn">thích</button>
+                  <button className="btn">bình luận</button>
+                  <span>200 lượt thích</span>
+                </div>
+                <input
+                  type="text"
+                  className="form-control my-1"
+                  placeholder="bình luận..."
+                />
+                <div className="text-start my-2 d-flex">
+                  <div style={{ width: "15%" }}>
+                    <img
+                      className="me-3 rounded-circle"
+                      style={{ width: "25%" }}
+                      src="https://scontent.fsgn13-4.fna.fbcdn.net/v/t39.30808-6/274879801_3124725294474894_2281591655370693797_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=K1doiq_l560AX_dsmBL&_nc_ht=scontent.fsgn13-4.fna&oh=00_AfDdykGpsZnoBRSCXcgVk7HacjhBD2oR5I1h58CgfkR-YA&oe=6550B8F6"
+                      alt=""
+                    />
+                    <b className="me-2">chú trình</b>
+                  </div>
+                  <span style={{ width: "85%" }}>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis, magnam. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Perferendis, magnam.
+                  </span>
                 </div>
               </div>
             </div>

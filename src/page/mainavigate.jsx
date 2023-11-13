@@ -1,13 +1,14 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Friends from "../components/friends";
 
 function Mainavigate() {
   const navigate = useNavigate();
   return (
     <>
-      <div className="container-fluid bg-success">
+      <div className="get-height container-fluid bg-success position-fixed top-0">
         <div className="container">
-          <div className="row p-5  rounded-3">
+          <div className="row p-3  rounded-3">
             <div className="col-3">
               <h1 className="text-white">Borcelle</h1>
             </div>
@@ -33,6 +34,7 @@ function Mainavigate() {
           </div>
         </div>
       </div>
+      <Friends />
     </>
   );
 }
